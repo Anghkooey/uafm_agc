@@ -19,7 +19,7 @@
 - <img src="../assets/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)  
   **— przez [`../pagc.bookmarklet.txt`](../pagc.bookmarklet.txt) lub [`../js/pagc.user.js`](../js/pagc.user.js)**
 
-Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oceny i wyświetlając przejrzyste statystyki w formie kolorystycznej.
+**Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oceny i wyświetlając przejrzyste statystyki w formie kolorystycznej.**
 
 ## ✨ **Funkcje**
 
@@ -51,7 +51,7 @@ Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oce
 - **[`../js/dagc.user.js`](../js/dagc.user.js) — dla <img src="../assets/dziekanat.svg" width="20" alt="Dziekanat"> [Wirtualnego Dziekanatu](https://dziekanat.uafm.edu.pl)**
 - **[`../js/pagc.user.js`](../js/pagc.user.js) — dla <img src="../assets/platforma.svg" width="20" alt="Platforma"> [Platformy E-learningowej](https://platforma.uafm.edu.pl)**
 
-Po zainstalowaniu skrypt automatycznie rozszerzy strony z ocenami.
+**Po zainstalowaniu skrypt automatycznie rozszerzy strony z ocenami.**
 
 <div align="center">
 

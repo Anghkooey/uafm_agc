@@ -19,7 +19,7 @@
 - <img src="../assets/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)  
   **— через [`../pagc.bookmarklet.txt`](../pagc.bookmarklet.txt) або [`../js/pagc.user.js`](../js/pagc.user.js)**
 
-Скрипти автоматично розпізнають оцінки на сторінці й додають наочну статистику у вигляді кольорового індикатора.
+**Скрипти автоматично розпізнають оцінки на сторінці й додають наочну статистику у вигляді кольорового індикатора.**
 
 ## ✨ **Можливості**
 
@@ -48,10 +48,10 @@
 
 **Встанови [Tampermonkey](https://www.tampermonkey.net/) або подібний менеджер скриптів, а потім додай:**
 
-- [`../js/dagc.user.js`](../js/dagc.user.js) — для <img src="../assets/dziekanat.svg" width="20" alt="Деканат"> [**Віртуального Деканату**](https://dziekanat.uafm.edu.pl)
-- [`../js/pagc.user.js`](../js/pagc.user.js) — для <img src="../assets/platforma.svg" width="20" alt="Платформа"> [**E-learning Платформи UAFM**](https://platforma.uafm.edu.pl)
+- **[`../js/dagc.user.js`](../js/dagc.user.js) — для <img src="../assets/dziekanat.svg" width="20" alt="Деканат"> [Віртуального Деканату](https://dziekanat.uafm.edu.pl)**
+- **[`../js/pagc.user.js`](../js/pagc.user.js) — для <img src="../assets/platforma.svg" width="20" alt="Платформа"> [E-learning Платформи UAFM](https://platforma.uafm.edu.pl)**
 
-Після встановлення скрипт автоматично розширить сторінку з оцінками.
+**Після встановлення скрипт автоматично розширить сторінку з оцінками.**
 
 <div align="center">
 
