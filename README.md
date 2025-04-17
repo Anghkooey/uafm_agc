@@ -51,21 +51,47 @@
 
 **Once installed, the script will automatically enhance grade pages when visited.**
 
-<div align="center">
-<table style="font-size: 16px; border-spacing: 15px 8px;">
+<table align="center" style="font-size: 16px; border-spacing: 15px 8px;">
   <thead>
-    <tr><th>Grade</th><th>Percentage</th><th>Description</th></tr>
+    <tr>
+      <th>Grade</th>
+      <th>Percentage</th>
+      <th>Description</th>
+    </tr>
   </thead>
   <tbody>
-    <tr style="color:darkgreen;"><td><strong>5.0</strong></td><td><strong>≥ 90 %</strong></td><td><strong>Dark Green</strong></td></tr>
-    <tr style="color:green;"><td><strong>4.5</strong></td><td><strong>≥ 80 %</strong></td><td><strong>Green</strong></td></tr>
-    <tr style="color:#66cc66;"><td><strong>4.0</strong></td><td><strong>≥ 70 %</strong></td><td><strong>Light Green</strong></td></tr>
-    <tr style="color:#FF8C00;"><td><strong>3.5</strong></td><td><strong>≥ 60 %</strong></td><td><strong>Dark Orange</strong></td></tr>
-    <tr style="color:orange;"><td><strong>3.0</strong></td><td><strong>≥ 50 %</strong></td><td><strong>Orange</strong></td></tr>
-    <tr style="color:red;"><td><strong>2.0</strong></td><td><strong>< 50 %</strong></td><td><strong>Red</strong></td></tr>
+    <tr>
+      <td><span style="color:darkgreen"><strong>5.0</strong></span></td>
+      <td><span style="color:darkgreen"><strong>≥ 90%</strong></span></td>
+      <td><span style="color:darkgreen"><strong>Dark Green</strong></span></td>
+    </tr>
+    <tr>
+      <td><span style="color:green"><strong>4.5</strong></span></td>
+      <td><span style="color:green"><strong>≥ 80%</strong></span></td>
+      <td><span style="color:green"><strong>Green</strong></span></td>
+    </tr>
+    <tr>
+      <td><span style="color:#66cc66"><strong>4.0</strong></span></td>
+      <td><span style="color:#66cc66"><strong>≥ 70%</strong></span></td>
+      <td><span style="color:#66cc66"><strong>Light Green</strong></span></td>
+    </tr>
+    <tr>
+      <td><span style="color:#FF8C00"><strong>3.5</strong></span></td>
+      <td><span style="color:#FF8C00"><strong>≥ 60%</strong></span></td>
+      <td><span style="color:#FF8C00"><strong>Dark Orange</strong></span></td>
+    </tr>
+    <tr>
+      <td><span style="color:orange"><strong>3.0</strong></span></td>
+      <td><span style="color:orange"><strong>≥ 50%</strong></span></td>
+      <td><span style="color:orange"><strong>Orange</strong></span></td>
+    </tr>
+    <tr>
+      <td><span style="color:red"><strong>2.0</strong></span></td>
+      <td><span style="color:red"><strong>&lt; 50%</strong></span></td>
+      <td><span style="color:red"><strong>Red</strong></span></td>
+    </tr>
   </tbody>
 </table>
-</div>
 
 ## **🖼️ Preview**
 
