@@ -2,9 +2,9 @@
 
 <p align="center">
   <a href="docs/pl.md"><img src="assets/pl_icon.svg" width="70" alt="Polski"></a>
-  &nbsp;&nbsp;&nbsp;
+     
   <a href="README.md"><img src="assets/en_icon.svg" width="70" alt="English"></a>
-  &nbsp;&nbsp;&nbsp;
+     
   <a href="docs/ua.md"><img src="assets/ua_icon.svg" width="70" alt="Українська"></a>
 </p>
 
@@ -14,7 +14,7 @@
 
 **UAFM-AGC** is a compact JavaScript-based toolset for automatically calculating **average**, **minimum**, and **maximum** grades on the official platforms of [**UAFM**](https://uafm.edu.pl/):
 
-- <img src="assets/dziekanat.svg" width="20" alt="e-University icon"> [**e-University**](https://dziekanat.uafm.edu.pl) **— via [`dagc.bookmarklet.txt`](dagc.bookmarklet.txt) or [`dagc.user.js`](js/dagc.user.js)**  
+- <img src="assets/dziekanat.svg" width="20" alt="e-University icon"> [**e-University**](https://dziekanat.uafm.edu.pl) **— via [`dagc.bookmarklet.txt`](dagc.bookmarklet.txt) or [`dagc.user.js`](js/dagc.user.js)**
 - <img src="assets/platforma.svg" width="20" alt="e-Learning icon"> [**e-Learning**](https://platforma.uafm.edu.pl) **— via [`pagc.bookmarklet.txt`](pagc.bookmarklet.txt) or [`pagc.user.js`](js/pagc.user.js)**
 
 **These scripts enhance the platforms by automatically detecting grades and displaying statistics in a clean, color-coded format.**
@@ -51,14 +51,18 @@
 
 **Once installed, the script will automatically enhance grade pages when visited.**
 
-| Grade | Percentage | Description |
-|:-----:|:----------:|:-----------:|
-| <font color="darkgreen">5.0</font>  | <font color="darkgreen">≥ 90%</font> | <font color="darkgreen">Dark Green</font> |
-| <font color="green">4.5</font>     | <font color="green">≥ 80%</font>  | <font color="green">Green</font> |
-| <font color="#66cc66">**4.0**</font>   | <font color="#66cc66">≥ 70%</font> | <font color="#66cc66">Light Green</font> |
-| <font color="#FF8C00">3.5</font>   | <font color="#FF8C00">≥ 60%</font> | <font color="#FF8C00">Dark Orange</font> |
-| <font color="orange">3.0</font>    | <font color="orange">≥ 50%</font>  | <font color="orange">Orange</font> |
-| <font color="red">2.0</font>       | <font color="red">< 50%</font>     | <font color="red">Red</font> |
+<div align="center">
+
+|  Grade  | Percentage | Description       |
+| :-----: | :--------: | :---------------- |
+| **5.0** | **≥ 90%**  | 🌲**Dark Green**  |
+| **4.5** | **≥ 80%**  | 💚**Green**       |
+| **4.0** | **≥ 70%**  | 🍏**Light Green** |
+| **3.5** | **≥ 60%**  | 🧡**Dark Orange** |
+| **3.0** | **≥ 50%**  | 🧡**Orange**      |
+| **2.0** | **< 50%**  | ❤️**Red**         |
+
+</div>
 
 ## **🖼️ Preview**
 

@@ -12,7 +12,7 @@
 
 ## 📌 **O Projekcie**
 
-**UAFM-AGC** to lekki zestaw narzędzi JavaScript, który automatycznie oblicza **średnią**, **minimalną** i **maksymalną** ocenę na oficjalnych platformach [**UAFM**](https://uafm.edu.pl/) — *Uniwersytetu Andrzeja Frycza Modrzewskiego*:
+**UAFM-AGC** to lekki zestaw narzędzi JavaScript, który automatycznie oblicza **średnią**, **minimalną** i **maksymalną** ocenę na oficjalnych platformach [**UAFM**](https://uafm.edu.pl/) — _Uniwersytetu Andrzeja Frycza Modrzewskiego_:
 
 - <img src="../assets/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)  
   **— przez [`../dagc.bookmarklet.txt`](../dagc.bookmarklet.txt) lub [`../js/dagc.user.js`](../js/dagc.user.js)**
@@ -54,19 +54,16 @@ Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oce
 Po zainstalowaniu skrypt automatycznie rozszerzy strony z ocenami.
 
 <div align="center">
-<table style="font-size: 16px; border-spacing: 15px 8px;">
-  <thead>
-    <tr><th>Ocena</th><th>Procent</th><th>Opis</th></tr>
-  </thead>
-  <tbody>
-    <tr style="color:darkgreen;"><td><strong>5.0</strong></td><td><strong>≥ 90 %</strong></td><td><strong>Ciemnozielony</strong></td></tr>
-    <tr style="color:green;"><td><strong>4.5</strong></td><td><strong>≥ 80 %</strong></td><td><strong>Zielony</strong></td></tr>
-    <tr style="color:#66cc66;"><td><strong>4.0</strong></td><td><strong>≥ 70 %</strong></td><td><strong>Jasnozielony</strong></td></tr>
-    <tr style="color:#FF8C00;"><td><strong>3.5</strong></td><td><strong>≥ 60 %</strong></td><td><strong>Ciemnopomarańczowy</strong></td></tr>
-    <tr style="color:orange;"><td><strong>3.0</strong></td><td><strong>≥ 50 %</strong></td><td><strong>Pomarańczowy</strong></td></tr>
-    <tr style="color:red;"><td><strong>2.0</strong></td><td><strong>< 50 %</strong></td><td><strong>Czerwony</strong></td></tr>
-  </tbody>
-</table>
+
+|  Grade  | Percentage | Description              |
+| :-----: | :--------: | :----------------------- |
+| **5.0** | **≥ 90%**  | 🌲**Ciemnozielony**      |
+| **4.5** | **≥ 80%**  | 💚**Zielony**            |
+| **4.0** | **≥ 70%**  | 🍏**Jasnozielony**       |
+| **3.5** | **≥ 60%**  | 🧡**Ciemnopomarańczowy** |
+| **3.0** | **≥ 50%**  | 🧡**Pomarańczowy**       |
+| **2.0** | **< 50%**  | ❤️**Czerwony**           |
+
 </div>
 
 ## 🖼️ **Podgląd**

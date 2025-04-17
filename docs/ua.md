@@ -54,19 +54,16 @@
 Після встановлення скрипт автоматично розширить сторінку з оцінками.
 
 <div align="center">
-<table style="font-size: 16px; border-spacing: 15px 8px;">
-  <thead>
-    <tr><th>Оцінка</th><th>Відсоток</th><th>Позначення</th></tr>
-  </thead>
-  <tbody>
-    <tr style="color:darkgreen;"><td><strong>5.0</strong></td><td><strong>≥ 90 %</strong></td><td><strong>Темно-зелений</strong></td></tr>
-    <tr style="color:green;"><td><strong>4.5</strong></td><td><strong>≥ 80 %</strong></td><td><strong>Зелений</strong></td></tr>
-    <tr style="color:#66cc66;"><td><strong>4.0</strong></td><td><strong>≥ 70 %</strong></td><td><strong>Світло-зелений</strong></td></tr>
-    <tr style="color:#FF8C00;"><td><strong>3.5</strong></td><td><strong>≥ 60 %</strong></td><td><strong>Темно-помаранчевий</strong></td></tr>
-    <tr style="color:orange;"><td><strong>3.0</strong></td><td><strong>≥ 50 %</strong></td><td><strong>Помаранчевий</strong></td></tr>
-    <tr style="color:red;"><td><strong>2.0</strong></td><td><strong>< 50 %</strong></td><td><strong>Червоний</strong></td></tr>
-  </tbody>
-</table>
+
+|  Grade  | Percentage | Description              |
+| :-----: | :--------: | :----------------------- |
+| **5.0** | **≥ 90%**  | 🌲**Темно-зелений**      |
+| **4.5** | **≥ 80%**  | 💚**Зелений**            |
+| **4.0** | **≥ 70%**  | 🍏**Світло-зелений**     |
+| **3.5** | **≥ 60%**  | 🧡**Темно-помаранчевий** |
+| **3.0** | **≥ 50%**  | 🧡**Помаранчевий**       |
+| **2.0** | **< 50%**  | ❤️**Червоний**           |
+
 </div>
 
 ## 🖼️ **Приклад вигляду**
