@@ -51,47 +51,14 @@
 
 **Once installed, the script will automatically enhance grade pages when visited.**
 
-<table align="center" style="font-size: 16px; border-spacing: 15px 8px;">
-  <thead>
-    <tr>
-      <th>Grade</th>
-      <th>Percentage</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span style="color:darkgreen"><strong>5.0</strong></span></td>
-      <td><span style="color:darkgreen"><strong>≥ 90%</strong></span></td>
-      <td><span style="color:darkgreen"><strong>Dark Green</strong></span></td>
-    </tr>
-    <tr>
-      <td><span style="color:green"><strong>4.5</strong></span></td>
-      <td><span style="color:green"><strong>≥ 80%</strong></span></td>
-      <td><span style="color:green"><strong>Green</strong></span></td>
-    </tr>
-    <tr>
-      <td><span style="color:#66cc66"><strong>4.0</strong></span></td>
-      <td><span style="color:#66cc66"><strong>≥ 70%</strong></span></td>
-      <td><span style="color:#66cc66"><strong>Light Green</strong></span></td>
-    </tr>
-    <tr>
-      <td><span style="color:#FF8C00"><strong>3.5</strong></span></td>
-      <td><span style="color:#FF8C00"><strong>≥ 60%</strong></span></td>
-      <td><span style="color:#FF8C00"><strong>Dark Orange</strong></span></td>
-    </tr>
-    <tr>
-      <td><span style="color:orange"><strong>3.0</strong></span></td>
-      <td><span style="color:orange"><strong>≥ 50%</strong></span></td>
-      <td><span style="color:orange"><strong>Orange</strong></span></td>
-    </tr>
-    <tr>
-      <td><span style="color:red"><strong>2.0</strong></span></td>
-      <td><span style="color:red"><strong>&lt; 50%</strong></span></td>
-      <td><span style="color:red"><strong>Red</strong></span></td>
-    </tr>
-  </tbody>
-</table>
+| Grade | Percentage | Description |
+|:-----:|:----------:|:-----------:|
+| <font color="darkgreen">5.0</font>  | <font color="darkgreen">≥ 90%</font> | <font color="darkgreen">Dark Green</font> |
+| <font color="green">4.5</font>     | <font color="green">≥ 80%</font>  | <font color="green">Green</font> |
+| <font color="#66cc66">**4.0**</font>   | <font color="#66cc66">≥ 70%</font> | <font color="#66cc66">Light Green</font> |
+| <font color="#FF8C00">3.5</font>   | <font color="#FF8C00">≥ 60%</font> | <font color="#FF8C00">Dark Orange</font> |
+| <font color="orange">3.0</font>    | <font color="orange">≥ 50%</font>  | <font color="orange">Orange</font> |
+| <font color="red">2.0</font>       | <font color="red">< 50%</font>     | <font color="red">Red</font> |
 
 ## **🖼️ Preview**
 
