@@ -81,6 +81,16 @@
 
 ![Platforma E-learningowa](../assets/gifs/pagc.gif)
 
+**Przykłady wyświetlania oceny w zależności od wyników:**
+
+| ![Ocena 5](../assets/script_preview/platfotma/ocena_5.png) | ![Ocena 4](../assets/script_preview/platfotma/ocena_4.png) |
+|:--:|:--:|
+| **Ocena 5** — maksymalna liczba punktów, wszystkie zadania ocenione; przycisk „Ignoruj nieocenione zadania” jest ukryty | **Ocena 4** — wynik zaliczający na podstawie uzyskanych punktów |
+
+| ![Ocena 2](../assets/script_preview/platfotma/ocena_2.png) | ![Ignorowanie nieocenionych](../assets/script_preview/platfotma/ignore_0.png) |
+|:--:|:--:|
+| **Ocena 2** — zbyt mało punktów do zaliczenia | **Brak ocenionych zadań** — po kliknięciu „Ignoruj nieocenione zadania” tabela znika, pozostaje tylko przycisk „Uwzględnij nieocenione zadania” |
+
 </div>
 
 ## 📝 **Licencja**
