@@ -54,8 +54,8 @@
     const gradeClass = averagePercentage >= 90 ? ["5", "darkgreen"]
       : averagePercentage >= 80 ? ["4.5", "green"]
         : averagePercentage >= 70 ? ["4", "#66cc66"]
-          : averagePercentage >= 60 ? ["3.5", "#FF8C00"]
-            : averagePercentage >= 50 ? ["3", "orange"] : ["2", "red"];
+          : averagePercentage >= 60 ? ["3.5", "orange"]
+            : averagePercentage >= 50 ? ["3", "#FF8C00"] : ["2", "red"];
 
     // Calculate what the grade would be with a hypothetical +5% boost
     let gradeDisplay = gradeClass[0] === (averagePercentage + 5 >= 90 ? "5" : averagePercentage + 5 >= 80 ? "4.5" : averagePercentage + 5 >= 70 ? "4" : averagePercentage + 5 >= 60 ? "3.5" : averagePercentage + 5 >= 50 ? "3" : "2")

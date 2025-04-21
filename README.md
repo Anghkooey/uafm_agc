@@ -40,7 +40,9 @@
 3. **Create a new bookmark in your browser and paste the code into the URL field.**
 4. **While you're on the relevant page, click the bookmark to inject the script.**
 
-![bookmarklet](assets/bookmarklet.gif)
+#### **🔖 Preview: How the bookmarklet works**
+
+![bookmarklet](assets/bookmarklet.gif)  
 
 ## **🧠 How to Use – Method 2: Userscript**
 
@@ -53,14 +55,14 @@
 
 <div align="center">
 
-|  Grade  | Percentage | Description       |
-| :-----: | :--------: | :---------------- |
-| **5.0** | **≥ 90%**  | 🌲**Dark Green**  |
-| **4.5** | **≥ 80%**  | 💚**Green**       |
-| **4.0** | **≥ 70%**  | 🍏**Light Green** |
-| **3.5** | **≥ 60%**  | 🧡**Dark Orange** |
-| **3.0** | **≥ 50%**  | 🧡**Orange**      |
-| **2.0** | **< 50%**  | ❤️**Red**         |
+|  Grade  | Percentage | Description                       |
+| :-----: | :--------: | :-------------------------------- |
+| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Dark\ Green}}$$ |
+| $${\color{green} \mathbf{4.5}}$$     | $${\color{green} \boldsymbol{≥\ 80\%}}$$     | $${\color{green} \textbf{Green}}$$         |
+| $${\color{#66cc66} \mathbf{4.0}}$$| $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$| $${\color{#66cc66} \textbf{Light\ Green}}$$ |
+| $${\color{orange} \mathbf{3.5}}$$    | $${\color{orange} \boldsymbol{≥\ 60\%}}$$    | $${\color{orange} \textbf{Orange}}$$        |
+| $${\color{#FF8C00} \mathbf{3.0}}$$| $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$| $${\color{#FF8C00} \textbf{Dark\ Orange}}$$ |
+| $${\color{red} \mathbf{2.0}}$$       | $${\color{red} \boldsymbol{<\ 50\%}}$$       | $${\color{red} \textbf{Red}}$$             |
 
 </div>
 

@@ -37,7 +37,7 @@
      */
     const determineGradeColor = grade => {
       const value = parseGrade(grade);
-      return value >= 4.8 ? "darkgreen" : value >= 4.5 ? "green" : value >= 4 ? "#66cc66" : value >= 3.5 ? "#FF8C00" : value >= 3 ? "orange" : "red";
+      return value >= 4.8 ? "darkgreen" : value >= 4.5 ? "green" : value >= 4 ? "#66cc66" : value >= 3.5 ? "orange" : value >= 3 ? "#FF8C00" : "red";
     };
   
     /**
