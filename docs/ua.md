@@ -1,11 +1,11 @@
 # **UAFM-AGC** — **Калькулятор Середнього Балу для [Університету Анджея Фрича Моджевського](https://uafm.edu.pl/)**
 
 <p align="center">
-  <a href="pl.md"><img src="../assets/pl_icon.svg" width="70" alt="Polski"></a>
+  <a href="pl.md"><img src="../assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="../README.md"><img src="../assets/en_icon.svg" width="70" alt="English"></a>
+  <a href="../README.md"><img src="../assets/flags/en_icon.svg" width="70" alt="English"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="ua.md"><img src="../assets/ua_icon.svg" width="70" alt="Українська"></a>
+  <a href="ua.md"><img src="../assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
 </p>
 
 ---
@@ -14,9 +14,9 @@
 
 **UAFM-AGC** — це легкий набір JavaScript-інструментів, що автоматично обчислює **середню**, **мінімальну** та **максимальну** оцінку на офіційних платформах **[UAFM](https://uafm.edu.pl/) — Університету Анджея Фрича Моджевського:**
 
-- <img src="../assets/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)  
+- <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)  
   **— через [`../dagc.bookmarklet.txt`](../dagc.bookmarklet.txt) або [`../js/dagc.user.js`](../js/dagc.user.js)**
-- <img src="../assets/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)  
+- <img src="../assets/uafm_icons/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)  
   **— через [`../pagc.bookmarklet.txt`](../pagc.bookmarklet.txt) або [`../js/pagc.user.js`](../js/pagc.user.js)**
 
 **Скрипти автоматично розпізнають оцінки на сторінці й додають наочну статистику у вигляді кольорового індикатора.**
@@ -27,29 +27,31 @@
 - **Кольорове маркування** оцінок залежно від результату
 - **Можливість врахування завдань без оцінки** (на e-learning платформі)
 - **Повна інтеграція** з системами університету
-- **Два варіанти запуску**: через закладку (bookmarklet) або userscript
+- **Два варіанти запуску**: через закладку ([Bookmarklet](https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%BA%D0%BC%D0%B0%D1%80%D0%BA%D0%BB%D0%B5%D1%82)) або [Userscript](https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9A%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%86%D1%8C%D0%BA%D1%96_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8)
 
-## 🔖 **Як користуватись – Спосіб 1: Закладка (Bookmarklet)**
+## 🔖 **Як користуватись – Спосіб 1: Закладка ([Bookmarklet](https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%BA%D0%BC%D0%B0%D1%80%D0%BA%D0%BB%D0%B5%D1%82))**
 
 **Не потребує розширень чи менеджерів скриптів.**
 
 1. **Відкрий відповідну платформу:**
-   - <img src="../assets/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)
-   - <img src="../assets/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)
+   - <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)
+   - <img src="../assets/uafm_icons/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)
 2. **Скопіюй вміст одного з файлів:**
    - [**`../dagc.bookmarklet.txt`**](../dagc.bookmarklet.txt)
    - [**`../pagc.bookmarklet.txt`**](../pagc.bookmarklet.txt)
 3. **Створи нову закладку у браузері та встав скопійований код у поле URL.**
 4. **Перебуваючи на сторінці платформи, натисни закладку для запуску скрипта.**
 
-![bookmarklet](../assets/bookmarklet.gif)
+#### 🔖 **Як створити та використовувати bookmarklet (якщо GIF недостатньо, переглянь [YouTube](https://www.youtube.com/watch?v=UeEU_9R_Jg0))**
 
-## 🧠 **Як користуватись – Спосіб 2: Userscript**
+![bookmarklet](../assets/gifs/bookmarklet.gif)
+
+## 🧠 **Як користуватись – Спосіб 2: [Userscript](https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9A%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%86%D1%8C%D0%BA%D1%96_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8)**
 
 **Встанови [Tampermonkey](https://www.tampermonkey.net/) або подібний менеджер скриптів, а потім додай:**
 
-- **[`../js/dagc.user.js`](../js/dagc.user.js) — для <img src="../assets/dziekanat.svg" width="20" alt="Деканат"> [Віртуального Деканату](https://dziekanat.uafm.edu.pl)**
-- **[`../js/pagc.user.js`](../js/pagc.user.js) — для <img src="../assets/platforma.svg" width="20" alt="Платформа"> [E-learning Платформи UAFM](https://platforma.uafm.edu.pl)**
+- **[`../js/dagc.user.js`](../js/dagc.user.js) — для <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Деканат"> [Віртуального Деканату](https://dziekanat.uafm.edu.pl)**
+- **[`../js/pagc.user.js`](../js/pagc.user.js) — для <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Платформа"> [E-learning Платформи UAFM](https://platforma.uafm.edu.pl)**
 
 **Після встановлення скрипт автоматично розширить сторінку з оцінками.**
 
@@ -70,13 +72,14 @@
 
 <div align="center">
 
-### <img src="../assets/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)
+### <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)
 
-![Wirtualny Dziekanat](../assets/dagc.gif)
+![Віртуальний Деканат gif](../assets/gifs/dagc.gif)
+![Віртуальний Деканат png](../assets/script_preview/dziekanat.png)
 
-### <img src="../assets/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)
+### <img src="../assets/uafm_icons/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)
 
-![Platforma E-learningowa](../assets/pagc.gif)
+![Platforma E-learningowa](../assets/gifs/pagc.gif)
 
 </div>
 

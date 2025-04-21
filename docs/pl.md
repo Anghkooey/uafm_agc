@@ -1,11 +1,11 @@
 # **UAFM-AGC** — **Kalkulator Średniej Oceny dla [Uniwersytetu Andrzeja Frycza Modrzewskiego](https://uafm.edu.pl/)**
 
 <p align="center">
-  <a href="pl.md"><img src="../assets/pl_icon.svg" width="70" alt="Polski"></a>
+  <a href="pl.md"><img src="../assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="../README.md"><img src="../assets/en_icon.svg" width="70" alt="English"></a>
+  <a href="../README.md"><img src="../assets/flags/en_icon.svg" width="70" alt="English"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="ua.md"><img src="../assets/ua_icon.svg" width="70" alt="Українська"></a>
+  <a href="ua.md"><img src="../assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
 </p>
 
 ---
@@ -14,9 +14,9 @@
 
 **UAFM-AGC** to lekki zestaw narzędzi JavaScript, który automatycznie oblicza **średnią**, **minimalną** i **maksymalną** ocenę na oficjalnych platformach [**UAFM**](https://uafm.edu.pl/) — _Uniwersytetu Andrzeja Frycza Modrzewskiego_:
 
-- <img src="../assets/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)  
+- <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)  
   **— przez [`../dagc.bookmarklet.txt`](../dagc.bookmarklet.txt) lub [`../js/dagc.user.js`](../js/dagc.user.js)**
-- <img src="../assets/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)  
+- <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)  
   **— przez [`../pagc.bookmarklet.txt`](../pagc.bookmarklet.txt) lub [`../js/pagc.user.js`](../js/pagc.user.js)**
 
 **Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oceny i wyświetlając przejrzyste statystyki w formie kolorystycznej.**
@@ -27,29 +27,31 @@
 - **Kolorystyczne oznaczenia ocen** w zależności od wyniku
 - **Możliwość uwzględnienia zadań bez ocen** (na platformie e-learningowej)
 - **Pełna integracja** z systemami uczelni
-- **Dwie formy uruchamiania**: zakładka (bookmarklet) lub userscript
+- **Dwie formy uruchamiania**: zakładka ([Bookmarklet](https://pl.wikipedia.org/wiki/Skryptozak%C5%82adka)) lub [Userscript](https://en.wikipedia.org/wiki/Wikipedia:User_scripts)
 
-## 🔖 **Jak używać – Metoda 1: Zakładka (Bookmarklet)**
+## 🔖 **Jak używać – Metoda 1: Zakładka ([Bookmarklet](https://pl.wikipedia.org/wiki/Skryptozak%C5%82adka))**
 
 **Nie wymaga rozszerzeń ani menedżerów skryptów.**
 
 1. **Otwórz odpowiednią platformę:**
-   - <img src="../assets/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)
-   - <img src="../assets/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)
+   - <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)
+   - <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)
 2. **Skopiuj zawartość jednego z plików:**
    - [**`../dagc.bookmarklet.txt`**](../dagc.bookmarklet.txt)
    - [**`../pagc.bookmarklet.txt`**](../pagc.bookmarklet.txt)
 3. **Utwórz nową zakładkę w przeglądarce i wklej kod do pola adresu URL.**
 4. **Będąc na stronie platformy, kliknij zakładkę, aby uruchomić skrypt.**
 
-![bookmarklet](../assets/bookmarklet.gif)
+#### 🔖 **Jak utworzyć i używać bookmarklet (jeśli GIF nie wystarcza, zobacz [YouTube](https://www.youtube.com/watch?v=UeEU_9R_Jg0))**
 
-## 🧠 **Jak używać – Metoda 2: Userscript**
+![bookmarklet](../assets/gifs/bookmarklet.gif)
+
+## 🧠 **Jak używać – Metoda 2: [Userscript](https://en.wikipedia.org/wiki/Wikipedia:User_scripts)**
 
 **Zainstaluj [Tampermonkey](https://www.tampermonkey.net/) lub podobny menedżer skryptów i zainstaluj:**
 
-- **[`../js/dagc.user.js`](../js/dagc.user.js) — dla <img src="../assets/dziekanat.svg" width="20" alt="Dziekanat"> [Wirtualnego Dziekanatu](https://dziekanat.uafm.edu.pl)**
-- **[`../js/pagc.user.js`](../js/pagc.user.js) — dla <img src="../assets/platforma.svg" width="20" alt="Platforma"> [Platformy E-learningowej](https://platforma.uafm.edu.pl)**
+- **[`../js/dagc.user.js`](../js/dagc.user.js) — dla <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Dziekanat"> [Wirtualnego Dziekanatu](https://dziekanat.uafm.edu.pl)**
+- **[`../js/pagc.user.js`](../js/pagc.user.js) — dla <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Platforma"> [Platformy E-learningowej](https://platforma.uafm.edu.pl)**
 
 **Po zainstalowaniu skrypt automatycznie rozszerzy strony z ocenami.**
 
@@ -70,13 +72,14 @@
 
 <div align="center">
 
-### <img src="../assets/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)
+### <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)
 
-![Wirtualny Dziekanat](../assets/dagc.gif)
+![Wirtualny Dziekanat gif](../assets/gifs/dagc.gif)
+![Wirtualny Dziekanat png](../assets/script_preview/dziekanat.png)
 
-### <img src="../assets/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)
+### <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)
 
-![Platforma E-learningowa](../assets/pagc.gif)
+![Platforma E-learningowa](../assets/gifs/pagc.gif)
 
 </div>
 
