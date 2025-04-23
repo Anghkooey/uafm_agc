@@ -1,6 +1,18 @@
 # **UAFM-AGC** — **Average Grade Calculator for the [Andrzej Frycz Modrzewski University](https://uafm.edu.pl/)**
 
 <p align="center">
+  <a href="https://github.com/Anghkooey/uafm_agc/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Anghkooey/uafm_agc?style=for-the-badge" alt="License Badge">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+  </a>
+  <a href="https://github.com/Anghkooey/uafm_agc/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Anghkooey/uafm_agc?style=for-the-badge" alt="Last Commit Badge">
+  </a>
+</p>
+
+<p align="center">
   <a href="docs/pl.md"><img src="assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
      
   <a href="README.md"><img src="assets/flags/en_icon.svg" width="70" alt="English"></a>
@@ -55,14 +67,14 @@
 
 <div align="center">
 
-|  Grade  | Percentage | Description                       |
-| :-----: | :--------: | :-------------------------------- |
+|                Grade                 |                  Percentage                  | Description                                  |
+| :----------------------------------: | :------------------------------------------: | :------------------------------------------- |
 | $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Dark\ Green}}$$ |
-| $${\color{green} \mathbf{4.5}}$$     | $${\color{green} \boldsymbol{≥\ 80\%}}$$     | $${\color{green} \textbf{Green}}$$         |
-| $${\color{#66cc66} \mathbf{4.0}}$$| $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$| $${\color{#66cc66} \textbf{Light\ Green}}$$ |
-| $${\color{orange} \mathbf{3.5}}$$    | $${\color{orange} \boldsymbol{≥\ 60\%}}$$    | $${\color{orange} \textbf{Orange}}$$        |
-| $${\color{#FF8C00} \mathbf{3.0}}$$| $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$| $${\color{#FF8C00} \textbf{Dark\ Orange}}$$ |
-| $${\color{red} \mathbf{2.0}}$$       | $${\color{red} \boldsymbol{<\ 50\%}}$$       | $${\color{red} \textbf{Red}}$$             |
+|   $${\color{green} \mathbf{4.5}}$$   |   $${\color{green} \boldsymbol{≥\ 80\%}}$$   | $${\color{green} \textbf{Green}}$$           |
+|  $${\color{#66cc66} \mathbf{4.0}}$$  |  $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$  | $${\color{#66cc66} \textbf{Light\ Green}}$$  |
+|  $${\color{orange} \mathbf{3.5}}$$   |  $${\color{orange} \boldsymbol{≥\ 60\%}}$$   | $${\color{orange} \textbf{Orange}}$$         |
+|  $${\color{#FF8C00} \mathbf{3.0}}$$  |  $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$  | $${\color{#FF8C00} \textbf{Dark\ Orange}}$$  |
+|    $${\color{red} \mathbf{2.0}}$$    |    $${\color{red} \boldsymbol{<\ 50\%}}$$    | $${\color{red} \textbf{Red}}$$               |
 
 </div>
 
@@ -81,13 +93,13 @@
 
 **Grade display examples depending on your results:**
 
-| ![Grade 5](assets/script_preview/platfotma/ocena_5.png) | ![Grade 4](assets/script_preview/platfotma/ocena_4.png) |
-|:--:|:--:|
-| **Grade 5** — maximum score, all tasks graded; “Ignore ungraded assignments” button is hidden | **Grade 4** — passing score based on total points |
+|                    ![Grade 5](assets/script_preview/platfotma/ocena_5.png)                    | ![Grade 4](assets/script_preview/platfotma/ocena_4.png) |
+| :-------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
+| **Grade 5** — maximum score, all tasks graded; “Ignore ungraded assignments” button is hidden |    **Grade 4** — passing score based on total points    |
 
-| ![Grade 2](assets/script_preview/platfotma/ocena_2.png) | ![Ungraded Ignored](assets/script_preview/platfotma/ignore_0.png) |
-|:--:|:--:|
-| **Grade 2** — not enough points to pass | **No graded tasks** — after pressing “Ignore ungraded assignments”, the table disappears and only the “Include ungraded assignments” button remains |
+| ![Grade 2](assets/script_preview/platfotma/ocena_2.png) |                                          ![Ungraded Ignored](assets/script_preview/platfotma/ignore_0.png)                                          |
+| :-----------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+|         **Grade 2** — not enough points to pass         | **No graded tasks** — after pressing “Ignore ungraded assignments”, the table disappears and only the “Include ungraded assignments” button remains |
 
 </div>
 

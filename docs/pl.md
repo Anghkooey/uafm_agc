@@ -1,6 +1,18 @@
 # **UAFM-AGC** — **Kalkulator Średniej Oceny dla [Uniwersytetu Andrzeja Frycza Modrzewskiego](https://uafm.edu.pl/)**
 
 <p align="center">
+  <a href="https://github.com/Anghkooey/uafm_agc/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Anghkooey/uafm_agc?style=for-the-badge" alt="License Badge">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+  </a>
+  <a href="https://github.com/Anghkooey/uafm_agc/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Anghkooey/uafm_agc?style=for-the-badge" alt="Last Commit Badge">
+  </a>
+</p>
+
+<p align="center">
   <a href="pl.md"><img src="../assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
   &nbsp;&nbsp;&nbsp;
   <a href="../README.md"><img src="../assets/flags/en_icon.svg" width="70" alt="English"></a>
@@ -57,14 +69,14 @@
 
 <div align="center">
 
-|  Ocena  | Procent     | Opis                              |
-| :-----: | :----------:| :--------------------------------- |
-| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Ciemnozielony}}$$ |
-| $${\color{green} \mathbf{4.5}}$$     | $${\color{green} \boldsymbol{≥\ 80\%}}$$     | $${\color{green} \textbf{Zielony}}$$         |
-| $${\color{#66cc66} \mathbf{4.0}}$$   | $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$   | $${\color{#66cc66} \textbf{Jasnozielony}}$$ |
-| $${\color{orange} \mathbf{3.5}}$$    | $${\color{orange} \boldsymbol{≥\ 60\%}}$$    | $${\color{orange} \textbf{Pomarańczowy}}$$  |
-| $${\color{#FF8C00} \mathbf{3.0}}$$   | $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$   | $${\color{#FF8C00} \textbf{Ciemnopomarańczowy}}$$ |
-| $${\color{red} \mathbf{2.0}}$$       | $${\color{red} \boldsymbol{<\ 50\%}}$$       | $${\color{red} \textbf{Czerwony}}$$         |
+|                Ocena                 |                   Procent                    | Opis                                              |
+| :----------------------------------: | :------------------------------------------: | :------------------------------------------------ |
+| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Ciemnozielony}}$$    |
+|   $${\color{green} \mathbf{4.5}}$$   |   $${\color{green} \boldsymbol{≥\ 80\%}}$$   | $${\color{green} \textbf{Zielony}}$$              |
+|  $${\color{#66cc66} \mathbf{4.0}}$$  |  $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$  | $${\color{#66cc66} \textbf{Jasnozielony}}$$       |
+|  $${\color{orange} \mathbf{3.5}}$$   |  $${\color{orange} \boldsymbol{≥\ 60\%}}$$   | $${\color{orange} \textbf{Pomarańczowy}}$$        |
+|  $${\color{#FF8C00} \mathbf{3.0}}$$  |  $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$  | $${\color{#FF8C00} \textbf{Ciemnopomarańczowy}}$$ |
+|    $${\color{red} \mathbf{2.0}}$$    |    $${\color{red} \boldsymbol{<\ 50\%}}$$    | $${\color{red} \textbf{Czerwony}}$$               |
 
 </div>
 
@@ -83,13 +95,13 @@
 
 **Przykłady wyświetlania oceny w zależności od wyników:**
 
-| ![Ocena 5](../assets/script_preview/platfotma/ocena_5.png) | ![Ocena 4](../assets/script_preview/platfotma/ocena_4.png) |
-|:--:|:--:|
+|                               ![Ocena 5](../assets/script_preview/platfotma/ocena_5.png)                                |   ![Ocena 4](../assets/script_preview/platfotma/ocena_4.png)    |
+| :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
 | **Ocena 5** — maksymalna liczba punktów, wszystkie zadania ocenione; przycisk „Ignoruj nieocenione zadania” jest ukryty | **Ocena 4** — wynik zaliczający na podstawie uzyskanych punktów |
 
-| ![Ocena 2](../assets/script_preview/platfotma/ocena_2.png) | ![Ignorowanie nieocenionych](../assets/script_preview/platfotma/ignore_0.png) |
-|:--:|:--:|
-| **Ocena 2** — zbyt mało punktów do zaliczenia | **Brak ocenionych zadań** — po kliknięciu „Ignoruj nieocenione zadania” tabela znika, pozostaje tylko przycisk „Uwzględnij nieocenione zadania” |
+| ![Ocena 2](../assets/script_preview/platfotma/ocena_2.png) |                                  ![Ignorowanie nieocenionych](../assets/script_preview/platfotma/ignore_0.png)                                  |
+| :--------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+|       **Ocena 2** — zbyt mało punktów do zaliczenia        | **Brak ocenionych zadań** — po kliknięciu „Ignoruj nieocenione zadania” tabela znika, pozostaje tylko przycisk „Uwzględnij nieocenione zadania” |
 
 </div>
 

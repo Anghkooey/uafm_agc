@@ -1,6 +1,18 @@
 # **UAFM-AGC** — **Калькулятор Середнього Балу для [Університету Анджея Фрича Моджевського](https://uafm.edu.pl/)**
 
 <p align="center">
+  <a href="https://github.com/Anghkooey/uafm_agc/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Anghkooey/uafm_agc?style=for-the-badge" alt="License Badge">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+  </a>
+  <a href="https://github.com/Anghkooey/uafm_agc/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Anghkooey/uafm_agc?style=for-the-badge" alt="Last Commit Badge">
+  </a>
+</p>
+
+<p align="center">
   <a href="pl.md"><img src="../assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
   &nbsp;&nbsp;&nbsp;
   <a href="../README.md"><img src="../assets/flags/en_icon.svg" width="70" alt="English"></a>
@@ -57,14 +69,14 @@
 
 <div align="center">
 
-|  Оцінка | Відсоток    | Опис                               |
-| :-----: | :----------:| :---------------------------------- |
-| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Темно-зелений}}$$ |
-| $${\color{green} \mathbf{4.5}}$$     | $${\color{green} \boldsymbol{≥\ 80\%}}$$     | $${\color{green} \textbf{Зелений}}$$          |
-| $${\color{#66cc66} \mathbf{4.0}}$$   | $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$   | $${\color{#66cc66} \textbf{Світло-зелений}}$$ |
-| $${\color{orange} \mathbf{3.5}}$$    | $${\color{orange} \boldsymbol{≥\ 60\%}}$$    | $${\color{orange} \textbf{Помаранчевий}}$$    |
-| $${\color{#FF8C00} \mathbf{3.0}}$$   | $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$   | $${\color{#FF8C00} \textbf{Темно-помаранчевий}}$$ |
-| $${\color{red} \mathbf{2.0}}$$       | $${\color{red} \boldsymbol{<\ 50\%}}$$       | $${\color{red} \textbf{Червоний}}$$           |
+|                Оцінка                |                   Відсоток                   | Опис                                              |
+| :----------------------------------: | :------------------------------------------: | :------------------------------------------------ |
+| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Темно-зелений}}$$    |
+|   $${\color{green} \mathbf{4.5}}$$   |   $${\color{green} \boldsymbol{≥\ 80\%}}$$   | $${\color{green} \textbf{Зелений}}$$              |
+|  $${\color{#66cc66} \mathbf{4.0}}$$  |  $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$  | $${\color{#66cc66} \textbf{Світло-зелений}}$$     |
+|  $${\color{orange} \mathbf{3.5}}$$   |  $${\color{orange} \boldsymbol{≥\ 60\%}}$$   | $${\color{orange} \textbf{Помаранчевий}}$$        |
+|  $${\color{#FF8C00} \mathbf{3.0}}$$  |  $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$  | $${\color{#FF8C00} \textbf{Темно-помаранчевий}}$$ |
+|    $${\color{red} \mathbf{2.0}}$$    |    $${\color{red} \boldsymbol{<\ 50\%}}$$    | $${\color{red} \textbf{Червоний}}$$               |
 
 </div>
 
@@ -83,13 +95,13 @@
 
 **Приклади відображення оцінки залежно від результатів:**
 
-| ![Оцінка 5](../assets/script_preview/platfotma/ocena_5.png) | ![Оцінка 4](../assets/script_preview/platfotma/ocena_4.png) |
-|:--:|:--:|
-| **Оцінка 5** — максимальний бал, усі завдання оцінено; кнопка “Ігнорувати неоцінені завдання” прихована | **Оцінка 4** — прохідний бал за кількістю набраних балів |
+|                       ![Оцінка 5](../assets/script_preview/platfotma/ocena_5.png)                       | ![Оцінка 4](../assets/script_preview/platfotma/ocena_4.png) |
+| :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------: |
+| **Оцінка 5** — максимальний бал, усі завдання оцінено; кнопка “Ігнорувати неоцінені завдання” прихована |  **Оцінка 4** — прохідний бал за кількістю набраних балів   |
 
-| ![Оцінка 2](../assets/script_preview/platfotma/ocena_2.png) | ![Ігнорування неоцінених](../assets/script_preview/platfotma/ignore_0.png) |
-|:--:|:--:|
-| **Оцінка 2** — недостатньо балів для проходження | **Немає оцінених завдань** — після натискання “Ігнорувати неоцінені завдання” таблиця зникає, залишається лише кнопка “Ураховувати неоцінені завдання” |
+| ![Оцінка 2](../assets/script_preview/platfotma/ocena_2.png) |                                       ![Ігнорування неоцінених](../assets/script_preview/platfotma/ignore_0.png)                                       |
+| :---------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      **Оцінка 2** — недостатньо балів для проходження       | **Немає оцінених завдань** — після натискання “Ігнорувати неоцінені завдання” таблиця зникає, залишається лише кнопка “Ураховувати неоцінені завдання” |
 
 </div>
 
