@@ -20,8 +20,6 @@
   <a href="docs/ua.md"><img src="assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
 </p>
 
----
-
 ## 📌 **About**
 
 **UAFM-AGC** is a compact JavaScript-based toolset for automatically calculating **average**, **minimum**, and **maximum** grades on the official platforms of [**UAFM**](https://uafm.edu.pl/):

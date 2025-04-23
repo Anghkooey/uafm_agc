@@ -20,8 +20,6 @@
   <a href="ua.md"><img src="../assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
 </p>
 
----
-
 ## 📌 **O Projekcie**
 
 **UAFM-AGC** to lekki zestaw narzędzi JavaScript, który automatycznie oblicza **średnią**, **minimalną** i **maksymalną** ocenę na oficjalnych platformach [**UAFM**](https://uafm.edu.pl/) — _Uniwersytetu Andrzeja Frycza Modrzewskiego_:
