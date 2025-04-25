@@ -11,7 +11,7 @@
 
 (() => {
   let includeUnscoredTasks = false;
-
+  // TODO: When the table disappears, the button should retain the previous width.
   // Returns grade and associated color based on percentage value
   // Uses Polish university grading thresholds
   const getGradeInfo = percent => {
