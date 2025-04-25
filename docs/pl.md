@@ -91,15 +91,15 @@
 
 ![Platforma E-learningowa](../assets/gifs/pagc.gif)
 
-**Przykłady wyświetlania oceny w zależności od wyników:**
+## 🎓 **Przykłady wyświetlania ocen: Zobacz swój postęp w akcji!** 📊
 
-|                               ![Ocena 5](../assets/script_preview/platfotma/ocena_5.png)                                |   ![Ocena 4](../assets/script_preview/platfotma/ocena_4.png)    |
-| :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| **Ocena 5** — maksymalna liczba punktów, wszystkie zadania ocenione; przycisk „Ignoruj nieocenione zadania” jest ukryty | **Ocena 4** — wynik zaliczający na podstawie uzyskanych punktów |
+|                           ![Ocena 5](../assets/script_preview/platfotma/ocena_5.png)                           |                                     ![Brak ocenionych zadań](../assets/script_preview/platfotma/ignore_0.png)                                     |
+| :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Ocena 5** — maksymalny wynik, wszystkie zadania ocenione; przycisk “Ignoruj nieocenione zadania” jest ukryty | **Brak ocenionych zadań** — po naciśnięciu “Ignoruj nieocenione zadania”, tabela znika, pozostaje tylko przycisk “Uwzględnij nieocenione zadania” |
 
-| ![Ocena 2](../assets/script_preview/platfotma/ocena_2.png) |                                  ![Ignorowanie nieocenionych](../assets/script_preview/platfotma/ignore_0.png)                                  |
-| :--------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-|       **Ocena 2** — zbyt mało punktów do zaliczenia        | **Brak ocenionych zadań** — po kliknięciu „Ignoruj nieocenione zadania” tabela znika, pozostaje tylko przycisk „Uwzględnij nieocenione zadania” |
+|   ![Ocena 3.5](../assets/script_preview/platfotma/ocena_3.5-4.png)   |  ![Ocena 2](../assets/script_preview/platfotma/ocena_2.png)   |
+| :------------------------------------------------------------------: | :-----------------------------------------------------------: |
+| **Ocena 3.5** — średnia wynosi 3.5; dodanie 5% może podnieść ją do 4 | **Ocena 2** — brak wystarczającej liczby punktów do przejścia |
 
 </div>
 

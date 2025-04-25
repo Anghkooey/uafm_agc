@@ -89,15 +89,15 @@
 
 ![**e-Learning**](assets/gifs/pagc.gif)
 
-**Grade display examples depending on your results:**
+## 🎓 **Grade Display Examples: See Your Progress in Action!** 📊
 
-|                    ![Grade 5](assets/script_preview/platfotma/ocena_5.png)                    | ![Grade 4](assets/script_preview/platfotma/ocena_4.png) |
-| :-------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
-| **Grade 5** — maximum score, all tasks graded; “Ignore ungraded assignments” button is hidden |    **Grade 4** — passing score based on total points    |
+|                    ![Grade 5](assets/script_preview/platfotma/ocena_5.png)                    |                                          ![No graded tasks](assets/script_preview/platfotma/ignore_0.png)                                           |
+| :-------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Grade 5** — maximum score, all tasks graded; “Ignore ungraded assignments” button is hidden | **No graded tasks** — after pressing “Ignore ungraded assignments”, the table disappears and only the “Include ungraded assignments” button remains |
 
-| ![Grade 2](assets/script_preview/platfotma/ocena_2.png) |                                          ![Ungraded Ignored](assets/script_preview/platfotma/ignore_0.png)                                          |
-| :-----------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-|         **Grade 2** — not enough points to pass         | **No graded tasks** — after pressing “Ignore ungraded assignments”, the table disappears and only the “Include ungraded assignments” button remains |
+|     ![Grade 3.5](assets/script_preview/platfotma/ocena_3.5-4.png)      | ![Grade 2](assets/script_preview/platfotma/ocena_2.png) |
+| :--------------------------------------------------------------------: | :-----------------------------------------------------: |
+| **Grade 3.5** — current average is 3.5; a 5% boost would raise it to 4 |         **Grade 2** — not enough points to pass         |
 
 </div>
 
