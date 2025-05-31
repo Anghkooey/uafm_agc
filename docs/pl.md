@@ -13,6 +13,7 @@
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/🌏%20Wybierz%20język%20klikając%20flagę-darkblue?style=for-the-badge" alt="Zmień język"><br>
   <a href="pl.md"><img src="../assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
   &nbsp;&nbsp;&nbsp;
   <a href="../README.md"><img src="../assets/flags/en_icon.svg" width="70" alt="English"></a>
@@ -67,14 +68,14 @@
 
 <div align="center">
 
-|                Ocena                 |                   Procent                    | Opis                                              |
-| :----------------------------------: | :------------------------------------------: | :------------------------------------------------ |
-| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Ciemnozielony}}$$    |
-|   $${\color{green} \mathbf{4.5}}$$   |   $${\color{green} \boldsymbol{≥\ 80\%}}$$   | $${\color{green} \textbf{Zielony}}$$              |
-|  $${\color{#66cc66} \mathbf{4.0}}$$  |  $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$  | $${\color{#66cc66} \textbf{Jasnozielony}}$$       |
-|  $${\color{orange} \mathbf{3.5}}$$   |  $${\color{orange} \boldsymbol{≥\ 60\%}}$$   | $${\color{orange} \textbf{Pomarańczowy}}$$        |
-|  $${\color{#FF8C00} \mathbf{3.0}}$$  |  $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$  | $${\color{#FF8C00} \textbf{Ciemnopomarańczowy}}$$ |
-|    $${\color{red} \mathbf{2.0}}$$    |    $${\color{red} \boldsymbol{<\ 50\%}}$$    | $${\color{red} \textbf{Czerwony}}$$               |
+| **Ocena**  | **Procent** | **Opis koloru**        |
+| :--------: | :---------: | :--------------------- |
+| **5.0** 🍏 |  **≥ 90%**  | **Ciemnozielony**      |
+| **4.5** 💚 |  **≥ 80%**  | **Zielony**            |
+| **4.0** 💚 |  **≥ 70%**  | **Jasnozielony**       |
+| **3.5** 🧡 |  **≥ 60%**  | **Pomarańczowy**       |
+| **3.0** 🧡 |  **≥ 50%**  | **Ciemnopomarańczowy** |
+| **2.0** ❤️ |  **< 50%**  | **Czerwony**           |
 
 </div>
 

@@ -13,11 +13,13 @@
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/🌏%20Click%20a%20flag%20to%20switch%20language-darkblue?style=for-the-badge" alt="Language switch hint"><br>
   <a href="docs/pl.md"><img src="assets/flags/pl_icon.svg" width="70" alt="Polski"></a>
      
   <a href="README.md"><img src="assets/flags/en_icon.svg" width="70" alt="English"></a>
      
   <a href="docs/ua.md"><img src="assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
+
 </p>
 
 ## 📌 **About**
@@ -65,14 +67,14 @@
 
 <div align="center">
 
-|                Grade                 |                  Percentage                  | Description                                  |
-| :----------------------------------: | :------------------------------------------: | :------------------------------------------- |
-| $${\color{darkgreen} \mathbf{5.0}}$$ | $${\color{darkgreen} \boldsymbol{≥\ 90\%}}$$ | $${\color{darkgreen} \textbf{Dark\ Green}}$$ |
-|   $${\color{green} \mathbf{4.5}}$$   |   $${\color{green} \boldsymbol{≥\ 80\%}}$$   | $${\color{green} \textbf{Green}}$$           |
-|  $${\color{#66cc66} \mathbf{4.0}}$$  |  $${\color{#66cc66} \boldsymbol{≥\ 70\%}}$$  | $${\color{#66cc66} \textbf{Light\ Green}}$$  |
-|  $${\color{orange} \mathbf{3.5}}$$   |  $${\color{orange} \boldsymbol{≥\ 60\%}}$$   | $${\color{orange} \textbf{Orange}}$$         |
-|  $${\color{#FF8C00} \mathbf{3.0}}$$  |  $${\color{#FF8C00} \boldsymbol{≥\ 50\%}}$$  | $${\color{#FF8C00} \textbf{Dark\ Orange}}$$  |
-|    $${\color{red} \mathbf{2.0}}$$    |    $${\color{red} \boldsymbol{<\ 50\%}}$$    | $${\color{red} \textbf{Red}}$$               |
+| **Grade**  | **Percentage** | **Description** |
+| :--------: | :------------: | :-------------- |
+| **5.0** 🍏 |   **≥ 90%**    | **Dark Green**  |
+| **4.5** 💚 |   **≥ 80%**    | **Green**       |
+| **4.0** 💚 |   **≥ 70%**    | **Light Green** |
+| **3.5** 🧡 |   **≥ 60%**    | **Orange**      |
+| **3.0** 🧡 |   **≥ 50%**    | **Dark Orange** |
+| **2.0** ❤️ |   **< 50%**    | **Red**         |
 
 </div>
 
