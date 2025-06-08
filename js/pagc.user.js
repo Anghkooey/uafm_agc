@@ -1,18 +1,17 @@
 // ==UserScript==
 // @name         P-AGC (Platform Average Grade Calculator)
 // @namespace    https://github.com/Anghkooey/uafm_agc
-// @version      2.4
+// @version      2.5
 // @author       https://github.com/Anghkooey/
 // @match        https://platforma.uafm.edu.pl/platform/groupdetails/*
-// @description  Calculates and displays average grade based on scored tasks, with optional inclusion of unscored tasks.
-//               Handles visibility toggling of tasks and preserves button layout even when table disappears.
+// @description  Calculates and displays average grade based on scored tasks and passed tests, with optional inclusion of unscored tasks.
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
 
 (() => {
   // Toggle for including unscored (0 pts) tasks in average calculation
-  let includeUnscoredTasks = false;
+  let includeUnscoredTasks = true;
 
   // Stores last known table width to keep toggle button size consistent
   let lastWidth = "0px";
@@ -37,13 +36,63 @@
 
     // Iterate through tasks, parse scored points and detect unscored tasks
     document.querySelectorAll("li.kraken3-task").forEach((el) => {
+      const type = el.querySelector(".taskType")?.textContent.trim();
+
+      // Skip if not a recognized task
+      if (!type) return;
+
+      // Handle tests separately
+      if (type === "Test") {
+        const statusContainer = el.querySelector(".kraken3-task__status_path");
+        if (!statusContainer) return;
+
+        const attempts = Array.from(
+          statusContainer.querySelectorAll(".kraken3_task__status_piece")
+        );
+        if (attempts.length === 0) return;
+
+        const lastAttempt = attempts[attempts.length - 1];
+        const details = lastAttempt.querySelector(".listOfValues");
+        if (!details) return;
+
+        const passed = details.querySelector("p.typeIfPassed")?.textContent.includes("Zaliczony");
+        if (!passed) {
+          hasUnscoredTasks = true;
+          if (!includeUnscoredTasks) return;
+        }
+
+        const maxPtsText = [...details.querySelectorAll("p.typeTitle")].find(p =>
+          p.textContent.includes("Punkty do zdobycia")
+        );
+        const gotPtsText = [...details.querySelectorAll("p.typeTitle")].find(p =>
+          p.textContent.includes("Uzyskano łącznie")
+        );
+
+        const max = maxPtsText ? parseInt(maxPtsText.textContent.match(/\d+/)?.[0]) : null;
+        const got = gotPtsText ? parseInt(gotPtsText.textContent.match(/\d+/)?.[0]) : null;
+
+        if (max !== null && got !== null) {
+          if (got === 0) hasUnscoredTasks = true;
+          if (!includeUnscoredTasks && got === 0) return;
+
+          totalPoints += got;
+          maxPoints += max;
+          totalPercentage += Math.floor((got / max) * 100);
+          taskCount++;
+        }
+
+        return;
+      }
+
+      // Handle regular (non-Test) tasks
       const m = el
         .querySelector(".kraken3-task__status_path .currentStatus")
         ?.textContent.match(/(\d+)\s*\/\s*(\d+)\s*pts/);
       if (m) {
         const [earned, possible] = [+m[1], +m[2]];
         if (earned === 0) hasUnscoredTasks = true;
-        if (includeUnscoredTasks && earned === 0) return; // Skip unscored if ignoring
+        if (!includeUnscoredTasks && earned === 0) return;
+
         totalPoints += earned;
         maxPoints += possible;
         totalPercentage += Math.floor((earned / possible) * 100);
@@ -142,8 +191,9 @@
       }
       // Update toggle button label and preserve width from table
       toggle.querySelector("td").innerHTML = includeUnscoredTasks
-        ? "Uwzględnij nieocenione zadania"
-        : "Ignoruj nieocenione zadania";
+        ? "Ignoruj nieocenione zadania"
+        : "Uwzględnij nieocenione zadania";
+
       toggle.style.display = "table";
       toggle.style.width = lastWidth;
     } else if (toggle) {
@@ -152,6 +202,6 @@
     }
   };
 
-  // Run once on script load to initialize UI
+  // Run script on page load
   updateTable();
 })();
