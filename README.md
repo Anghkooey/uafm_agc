@@ -10,6 +10,9 @@
   <a href="https://github.com/Anghkooey/uafm_agc/commits/main">
     <img src="https://img.shields.io/github/last-commit/Anghkooey/uafm_agc?style=for-the-badge" alt="Last Commit Badge">
   </a>
+  <a href="https://github.com/Anghkooey/uafm_agc/releases">
+    <img src="https://img.shields.io/github/release/Anghkooey/uafm_agc?style=for-the-badge" alt="Latest Release Badge">
+  </a>
 </p>
 
 <p align="center">
