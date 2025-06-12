@@ -22,51 +22,59 @@
   <a href="README.md"><img src="assets/flags/en_icon.svg" width="70" alt="English"></a>
      
   <a href="docs/ua.md"><img src="assets/flags/ua_icon.svg" width="70" alt="Українська"></a>
-
 </p>
 
-## 📌 **About**
+## 📌 About
 
 **UAFM-AGC** is a compact JavaScript-based toolset for automatically calculating **average**, **minimum**, and **maximum** grades on the official platforms of [**UAFM**](https://uafm.edu.pl/):
 
-- <img src="assets/uafm_icons/dziekanat.svg" width="20" alt="e-University icon"> [**e-University**](https://dziekanat.uafm.edu.pl) **— via [`dagc.bookmarklet.txt`](dagc.bookmarklet.txt) or [`dagc.user.js`](js/dagc.user.js)**
-- <img src="assets/uafm_icons/platforma.svg" width="20" alt="e-Learning icon"> [**e-Learning**](https://platforma.uafm.edu.pl) **— via [`pagc.bookmarklet.txt`](pagc.bookmarklet.txt) or [`pagc.user.js`](js/pagc.user.js)**
+- <img src="assets/uafm_icons/dziekanat.svg" width="20"> [**e-University**](https://dziekanat.uafm.edu.pl)  
+  — via [**`dagc.bookmarklet.txt`**](txt/dagc.bookmarklet.txt) or [**`dagc.bookmarklet.txt`**](js/dagc.user.js)
+- <img src="assets/uafm_icons/platforma.svg" width="20"> [**e-Learning**](https://platforma.uafm.edu.pl)  
+  — via [**`pagc.bookmarklet.txt`**](txt/pagc.bookmarklet.txt) or [**`pagc.bookmarklet.txt`**](js/pagc.user.js)
 
-**These scripts enhance the platforms by automatically detecting grades and displaying statistics in a clean, color-coded format.**
+These scripts enhance the platforms by automatically detecting grades and displaying statistics in a clean, color-coded format.
 
-## **✨ Features**
+---
 
-- **Automatic calculation** of average, min, and max grades
-- **Color-coded grade indicators** based on performance
-- **Optional inclusion of ungraded tasks** (for e-Learning)
-- **Seamless integration** into the university systems
-- **Two methods of use**: [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) or [Userscript](https://en.wikipedia.org/wiki/Wikipedia:User_scripts)
+## ✨ Features
 
-## **🔖 How to Use – Method 1: [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)**
+- Automatic average, min, and max grade calculation
+- Color-coded indicators based on grade performance
+- Option to include/exclude ungraded items (e-Learning)
+- Works directly in the browser (no backend/server)
+- Two integration options: Bookmarklet or Userscript
 
-**No extensions or userscript managers needed.**
+---
 
-1. **Open the appropriate platform:**
-   - <img src="assets/uafm_icons/dziekanat.svg" width="20" alt="e-University"> [**e-University**](https://dziekanat.uafm.edu.pl)
-   - <img src="assets/uafm_icons/platforma.svg" width="20" alt="e-Learning"> [**e-Learning**](https://platforma.uafm.edu.pl)
-2. **Copy the contents of one of the following files:**
-   - [**`dagc.bookmarklet.txt`**](dagc.bookmarklet.txt)
-   - [**`pagc.bookmarklet.txt`**](pagc.bookmarklet.txt)
-3. **Create a new bookmark in your browser and paste the code into the URL field.**
-4. **While you're on the relevant page, click the bookmark to inject the script.**
+## 🖼️ Preview
 
-#### 🔖 **How to create and use the bookmarklet (see [YouTube](https://www.youtube.com/watch?v=UeEU_9R_Jg0) if the GIF isn't clear enough)**
+<div align="center">
 
-![bookmarklet](assets/gifs/bookmarklet.gif)
+### <img src="assets/uafm_icons/dziekanat.svg" width="20" alt="e-University"> [**e-University**](https://dziekanat.uafm.edu.pl)
 
-## **🧠 How to Use – Method 2: [Userscript](https://en.wikipedia.org/wiki/Wikipedia:User_scripts)**
+![e-University gif](assets/gifs/dagc.gif)  
+![e-University png](assets/script_preview/dziekanat.png)
 
-**Use [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript manager and install:**
+### <img src="assets/uafm_icons/platforma.svg" width="20" alt="e-Learning"> [**e-Learning**](https://platforma.uafm.edu.pl)
 
-- **[`dagc.user.js`](js/dagc.user.js) — for <img src="assets/uafm_icons/dziekanat.svg" width="20" alt="e-University"> [e-University](https://dziekanat.uafm.edu.pl)**
-- **[`pagc.user.js`](js/pagc.user.js) — for <img src="assets/uafm_icons/platforma.svg" width="20" alt="e-Learning"> [e-Learning](https://platforma.uafm.edu.pl)**
+![e-Learning](assets/gifs/pagc.gif)
 
-**Once installed, the script will automatically enhance grade pages when visited.**
+### 🎓 **Grade Display Examples: See Your Progress in Action!** 📊
+
+| ![Grade 5](assets/script_preview/platfotma/ocena_5.png) | ![No graded tasks](assets/script_preview/platfotma/ignore_0.png) |
+| :-----------------------------------------------------: | :--------------------------------------------------------------: |
+| **Grade 5** — all tasks graded, perfect score           | **No graded tasks** — empty grade table after filtering          |
+
+| ![Grade 3.5](assets/script_preview/platfotma/ocena_3.5-4.png) | ![Grade 2](assets/script_preview/platfotma/ocena_2.png) |
+| :------------------------------------------------------------: | :-----------------------------------------------------: |
+| **3.5 avg** — 5% boost needed to reach 4.0                    | **2.0 avg** — insufficient points to pass               |
+
+</div>
+
+---
+
+## 📊 Grade Scale Reference
 
 <div align="center">
 
@@ -81,31 +89,42 @@
 
 </div>
 
-## **🖼️ Preview**
+---
 
-<div align="center">
+## ⚙️ Installation & Usage
 
-### <img src="assets/uafm_icons/dziekanat.svg" width="20" alt="e-University"> [**e-University**](https://dziekanat.uafm.edu.pl)
+### 📌 Method 1: [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
 
-![e-University gif](assets/gifs/dagc.gif)
-![e-University png](assets/script_preview/dziekanat.png)
+1. **Open the appropriate platform:**
+   - <img src="assets/uafm_icons/dziekanat.svg" width="20"> [**e-University**](https://dziekanat.uafm.edu.pl)
+   - <img src="assets/uafm_icons/platforma.svg" width="20"> [**e-Learning**](https://platforma.uafm.edu.pl)
+2. **Copy the contents of:**
+   - [**`dagc.bookmarklet.txt`**](txt/dagc.bookmarklet.txt)
+   - [**`pagc.bookmarklet.txt`**](txt/pagc.bookmarklet.txt)
+3. **Create a new browser bookmark** and paste the code into the URL field.
+4. **Click the bookmark while on the platform page** to activate the script.
 
-### <img src="assets/uafm_icons/platforma.svg" width="20" alt="e-Learning"> [**e-Learning**](https://platforma.uafm.edu.pl)
+#### 🎬 GIF Demo: Bookmarklet in Action
 
-![**e-Learning**](assets/gifs/pagc.gif)
+![bookmarklet](assets/gifs/bookmarklet.gif)
 
-## 🎓 **Grade Display Examples: See Your Progress in Action!** 📊
+### 📁 Optional: Import Bookmark File
 
-|                    ![Grade 5](assets/script_preview/platfotma/ocena_5.png)                    |                                          ![No graded tasks](assets/script_preview/platfotma/ignore_0.png)                                           |
-| :-------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **Grade 5** — maximum score, all tasks graded; “Ignore ungraded assignments” button is hidden | **No graded tasks** — after pressing “Ignore ungraded assignments”, the table disappears and only the “Include ungraded assignments” button remains |
+To save time, use the pre-made [`bookmarks.html`](bookmarks.html) file and import it through your browser's **Import Bookmarks** feature.
 
-|     ![Grade 3.5](assets/script_preview/platfotma/ocena_3.5-4.png)      | ![Grade 2](assets/script_preview/platfotma/ocena_2.png) |
-| :--------------------------------------------------------------------: | :-----------------------------------------------------: |
-| **Grade 3.5** — current average is 3.5; a 5% boost would raise it to 4 |         **Grade 2** — not enough points to pass         |
+---
 
-</div>
+### 🧩 Method 2: [Userscript](https://en.wikipedia.org/wiki/Wikipedia:User_scripts)
 
-## **📝 License**
+Use [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript manager. Then install:
 
-**Licensed under GNU General Public License v3 - see the [**LICENSE**](LICENSE) file for details.**
+- [**`dagc.bookmarklet.txt`**](js/dagc.user.js) — for [**e-University**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.bookmarklet.txt`**](js/pagc.user.js) — for [**e-Learning**](https://platforma.uafm.edu.pl)
+
+Scripts will run automatically on grade-related pages.
+
+---
+
+## 📝 License
+
+Licensed under **GNU GPL v3** — see the [LICENSE](LICENSE) file for full terms.
