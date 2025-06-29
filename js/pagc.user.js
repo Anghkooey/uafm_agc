@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         P-AGC (Platform Average Grade Calculator)
 // @namespace    https://github.com/Anghkooey/uafm_agc
-// @version      2.5
+// @version      2.6
 // @author       https://github.com/Anghkooey/
 // @match        https://platforma.uafm.edu.pl/platform/groupdetails/*
 // @description  Calculates and displays average grade based on scored tasks and passed tests, with optional inclusion of unscored tasks.
@@ -10,13 +10,13 @@
 // ==/UserScript==
 
 (() => {
-  // Toggle for including unscored (0 pts) tasks in average calculation
+  // State toggle: whether to include unscored (0 points) tasks/tests in calculation
   let includeUnscoredTasks = true;
 
-  // Stores last known table width to keep toggle button size consistent
+  // Last known table width — used to maintain consistent width across table and toggle
   let lastWidth = "0px";
 
-  // Returns grade and color based on percentage thresholds (Polish grading scale)
+  // Polish grading scale based on percentage
   const getGradeInfo = (percent) => {
     if (percent >= 90) return ["5", "darkgreen"];
     if (percent >= 80) return ["4.5", "green"];
@@ -26,32 +26,28 @@
     return ["2", "red"];
   };
 
-  // Collects task scores, calculates averages, updates or creates tables and toggle button
+  // Main logic: parses DOM, aggregates points, renders grade summary and toggle
   const updateTable = () => {
-    let totalPoints = 0,
-      maxPoints = 0,
-      totalPercentage = 0,
-      taskCount = 0,
-      hasUnscoredTasks = false;
+    let totalPoints = 0;
+    let maxPoints = 0;
+    let totalPercentage = 0;
+    let taskCount = 0; // Count of graded items (both tasks and tests)
+    let hasUnscoredTasks = false;
 
-    // Iterate through tasks, parse scored points and detect unscored tasks
+    // Traverse each task container in the DOM
     document.querySelectorAll("li.kraken3-task").forEach((el) => {
       const type = el.querySelector(".taskType")?.textContent.trim();
+      if (!type) return; // Unknown type, skip
 
-      // Skip if not a recognized task
-      if (!type) return;
-
-      // Handle tests separately
+      // === TEST HANDLING ===
       if (type === "Test") {
         const statusContainer = el.querySelector(".kraken3-task__status_path");
         if (!statusContainer) return;
 
-        const attempts = Array.from(
-          statusContainer.querySelectorAll(".kraken3_task__status_piece")
-        );
+        const attempts = Array.from(statusContainer.querySelectorAll(".kraken3_task__status_piece"));
         if (attempts.length === 0) return;
 
-        const lastAttempt = attempts[attempts.length - 1];
+        const lastAttempt = attempts.at(-1);
         const details = lastAttempt.querySelector(".listOfValues");
         if (!details) return;
 
@@ -80,14 +76,13 @@
           totalPercentage += Math.floor((got / max) * 100);
           taskCount++;
         }
-
         return;
       }
 
-      // Handle regular (non-Test) tasks
-      const m = el
-        .querySelector(".kraken3-task__status_path .currentStatus")
+      // === REGULAR TASK HANDLING ===
+      const m = el.querySelector(".kraken3-task__status_path .currentStatus")
         ?.textContent.match(/(\d+)\s*\/\s*(\d+)\s*pts/);
+
       if (m) {
         const [earned, possible] = [+m[1], +m[2]];
         if (earned === 0) hasUnscoredTasks = true;
@@ -100,24 +95,23 @@
       }
     });
 
-    // Calculate average percentage or 0 if no tasks
-    const avg = taskCount
+    // Avoid division by zero; calculate average grade across all valid items
+    const avg = totalPercentage && taskCount
       ? Math.round((totalPercentage / taskCount) * 100) / 100
       : 0;
 
-    // Determine current grade and possible +5% grade (for display)
     const [grade, color] = getGradeInfo(avg);
     const [altGrade, altColor] = getGradeInfo(avg + 5);
     const showAlt = grade !== altGrade;
 
-    // Construct grade display (single or split)
+    // Display two grades if 5% bump would increase final grade
     const gradeDisplay = showAlt
       ? `<span style="color:${color};display:inline-block;width:45%;text-align:center">${grade}</span>
          <span style="color:gray;display:inline-block;width:10%;text-align:center">/</span>
          <span style="color:${altColor};display:inline-block;width:45%;text-align:center">${altGrade}</span>`
       : `<span style="color:${color};display:inline-block;width:100%;text-align:center">${grade}</span>`;
 
-    // Create or reuse the summary table element
+    // Create or update grade table
     let tbl = document.getElementById("zgm");
     if (!tbl) {
       tbl = document.createElement("table");
@@ -128,11 +122,10 @@
       }
     }
 
-    // Set common table styles
     tbl.style.cssText =
       "margin:20px auto;border-collapse:collapse;font:18px 'Roboto',sans-serif;white-space:nowrap;text-align:center";
 
-    // Populate table rows if tasks exist, otherwise empty content
+    // Inject rows if there are evaluated tasks/tests; otherwise, reset display
     tbl.innerHTML = taskCount
       ? `
         <thead>
@@ -161,19 +154,18 @@
         </tbody>`
       : "";
 
-    // Show table only if tasks exist, else hide it
     tbl.style.display = taskCount ? "table" : "none";
 
-    // Save last width for consistent toggle button size
+    // Remember last table width for aligning toggle button
     if (taskCount) {
       tbl.style.width = "auto";
       lastWidth = tbl.offsetWidth + "px";
       tbl.style.width = lastWidth;
     }
 
-    // Create or update toggle button to include/exclude unscored tasks
+    // Manage toggle button: only show if there's at least one unscored task/test
     let toggle = document.getElementById("qop");
-    if (hasUnscoredTasks || includeUnscoredTasks) {
+    if (hasUnscoredTasks) {
       if (!toggle) {
         toggle = document.createElement("table");
         toggle.id = "qop";
@@ -189,7 +181,7 @@
         };
         tbl.parentNode.insertBefore(toggle, tbl.nextSibling);
       }
-      // Update toggle button label and preserve width from table
+
       toggle.querySelector("td").innerHTML = includeUnscoredTasks
         ? "Ignoruj nieocenione zadania"
         : "Uwzględnij nieocenione zadania";
@@ -197,11 +189,10 @@
       toggle.style.display = "table";
       toggle.style.width = lastWidth;
     } else if (toggle) {
-      // Remove toggle if no unscored tasks present
-      toggle.remove();
+      toggle.remove(); // Clean up toggle if it's no longer needed
     }
   };
 
-  // Run script on page load
+  // Initial run
   updateTable();
 })();
