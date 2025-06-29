@@ -29,9 +29,9 @@
 **UAFM-AGC** — це легкий набір JavaScript-інструментів, що автоматично обчислює **середню**, **мінімальну** та **максимальну** оцінку на офіційних платформах **[UAFM](https://uafm.edu.pl/) — Університету Анджея Фрича Моджевського:**
 
 - <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Віртуальний Деканат"> [**Віртуальний Деканат**](https://dziekanat.uafm.edu.pl)  
-  **— через [**`dagc.bookmarklet.txt`**](../dagc.bookmarklet.txt) або [`js/dagc.user.js`](../js/dagc.user.js)**
+  — через [**`dagc.bookmarklet.txt`**](../dagc.bookmarklet.txt) або [**`dagc.user.js`**](js/dagc.user.js)
 - <img src="../assets/uafm_icons/platforma.svg" width="20" alt="E-learning Платформа"> [**E-learning Платформа UAFM**](https://platforma.uafm.edu.pl)  
-  **— через [**`pagc.bookmarklet.txt`**](../pagc.bookmarklet.txt) або [`js/pagc.user.js`](../js/pagc.user.js)**
+  — через [**`pagc.bookmarklet.txt`**](../pagc.bookmarklet.txt) або [**`pagc.user.js`**](js/pagc.user.js)
 
 Скрипти додають візуальні підказки до сторінок з оцінками та автоматично виводять статистику у вигляді кольорових індикаторів.
 
@@ -118,8 +118,8 @@
 
 Встанови [Tampermonkey](https://www.tampermonkey.net/) або інший менеджер скриптів. Потім додай:
 
-- [**`dagc.bookmarklet.txt`**](../js/dagc.user.js) — для [**Віртуального Деканату**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.bookmarklet.txt`**](../js/pagc.user.js) — для [**E-learning Платформи**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](../js/dagc.user.js) — для [**Віртуального Деканату**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](../js/pagc.user.js) — для [**E-learning Платформи**](https://platforma.uafm.edu.pl)
 
 Скрипти автоматично працюватимуть на сторінках з оцінками.
 

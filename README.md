@@ -29,9 +29,9 @@
 **UAFM-AGC** is a compact JavaScript-based toolset for automatically calculating **average**, **minimum**, and **maximum** grades on the official platforms of [**UAFM**](https://uafm.edu.pl/):
 
 - <img src="assets/uafm_icons/dziekanat.svg" width="20"> [**e-University**](https://dziekanat.uafm.edu.pl)  
-  — via [**`dagc.bookmarklet.txt`**](txt/dagc.bookmarklet.txt) or [**`dagc.bookmarklet.txt`**](js/dagc.user.js)
+  — via [**`dagc.bookmarklet.txt`**](txt/dagc.bookmarklet.txt) or [**`dagc.user.js`**](js/dagc.user.js)
 - <img src="assets/uafm_icons/platforma.svg" width="20"> [**e-Learning**](https://platforma.uafm.edu.pl)  
-  — via [**`pagc.bookmarklet.txt`**](txt/pagc.bookmarklet.txt) or [**`pagc.bookmarklet.txt`**](js/pagc.user.js)
+  — via [**`pagc.bookmarklet.txt`**](txt/pagc.bookmarklet.txt) or [**`pagc.user.js`**](js/pagc.user.js)
 
 These scripts enhance the platforms by automatically detecting grades and displaying statistics in a clean, color-coded format.
 
@@ -118,8 +118,8 @@ To save time, use the pre-made [`bookmarks.html`](bookmarks.html) file and impor
 
 Use [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript manager. Then install:
 
-- [**`dagc.bookmarklet.txt`**](js/dagc.user.js) — for [**e-University**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.bookmarklet.txt`**](js/pagc.user.js) — for [**e-Learning**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](js/dagc.user.js) — for [**e-University**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](js/pagc.user.js) — for [**e-Learning**](https://platforma.uafm.edu.pl)
 
 Scripts will run automatically on grade-related pages.
 
