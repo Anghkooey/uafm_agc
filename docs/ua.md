@@ -118,8 +118,8 @@
 
 Встанови [Tampermonkey](https://www.tampermonkey.net/) або інший менеджер скриптів. Потім додай:
 
-- [**`dagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — для [**Віртуального Деканату**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — для [**E-learning Платформи**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — для [**Віртуального Деканату**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — для [**E-learning Платформи**](https://platforma.uafm.edu.pl)
 
 Скрипти автоматично працюватимуть на сторінках з оцінками.
 

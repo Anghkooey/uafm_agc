@@ -118,8 +118,8 @@
 
 **Zainstaluj [Tampermonkey](https://www.tampermonkey.net/) lub podobne rozszerzenie, a następnie dodaj:**
 
-- [**`dagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — dla [**Wirtualnego Dziekanatu**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — dla [**Platformy E-learningowej**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — dla [**Wirtualnego Dziekanatu**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — dla [**Platformy E-learningowej**](https://platforma.uafm.edu.pl)
 
 Skrypty będą uruchamiać się automatycznie na stronach z ocenami.
 
