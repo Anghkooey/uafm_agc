@@ -31,9 +31,9 @@
 **UAFM-AGC** to lekki zestaw narzędzi JavaScript, który automatycznie oblicza **średnią**, **minimalną** i **maksymalną** ocenę na oficjalnych platformach [**UAFM**](https://uafm.edu.pl/) — _Uniwersytetu Andrzeja Frycza Modrzewskiego_:
 
 - <img src="../assets/uafm_icons/dziekanat.svg" width="20" alt="Wirtualny Dziekanat"> [**Wirtualny Dziekanat**](https://dziekanat.uafm.edu.pl)  
-  — przez [**`dagc.bookmarklet.txt`**](../dagc.bookmarklet.txt) lub [**`dagc.user.js`**](js/dagc.user.js)
+  — przez [**`dagc.bookmarklet.txt`**](../txt/dagc.bookmarklet.txt) lub [**`dagc.user.js`**](../js/dagc.user.js)
 - <img src="../assets/uafm_icons/platforma.svg" width="20" alt="Platforma E-learningowa"> [**Platforma E-learningowa**](https://platforma.uafm.edu.pl)  
-  — przez [**`pagc.bookmarklet.txt`**](../pagc.bookmarklet.txt) lub [**`pagc.user.js`**](js/pagc.user.js)
+  — przez [**`pagc.bookmarklet.txt`**](../txt/pagc.bookmarklet.txt) lub [**`pagc.user.js`**](../js/pagc.user.js)
 
 **Skrypty te rozszerzają funkcjonalność platform, automatycznie wykrywając oceny i wyświetlając przejrzyste statystyki w formie kolorystycznej.**
 
@@ -118,8 +118,8 @@
 
 **Zainstaluj [Tampermonkey](https://www.tampermonkey.net/) lub podobne rozszerzenie, a następnie dodaj:**
 
-- [**`dagc.user.js`**](../js/dagc.user.js) — dla [**Wirtualnego Dziekanatu**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.user.js`**](../js/pagc.user.js) — dla [**Platformy E-learningowej**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — dla [**Wirtualnego Dziekanatu**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](../https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — dla [**Platformy E-learningowej**](https://platforma.uafm.edu.pl)
 
 Skrypty będą uruchamiać się automatycznie na stronach z ocenami.
 

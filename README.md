@@ -118,8 +118,8 @@ To save time, use the pre-made [`bookmarks.html`](bookmarks.html) file and impor
 
 Use [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript manager. Then install:
 
-- [**`dagc.user.js`**](js/dagc.user.js) — for [**e-University**](https://dziekanat.uafm.edu.pl)
-- [**`pagc.user.js`**](js/pagc.user.js) — for [**e-Learning**](https://platforma.uafm.edu.pl)
+- [**`dagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/dagc.user.js) — for [**e-University**](https://dziekanat.uafm.edu.pl)
+- [**`pagc.user.js`**](https://github.com/Anghkooey/uafm_agc/raw/refs/heads/main/js/pagc.user.js) — for [**e-Learning**](https://platforma.uafm.edu.pl)
 
 Scripts will run automatically on grade-related pages.
 
